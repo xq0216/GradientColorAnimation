@@ -14,6 +14,7 @@
 		FDEF31321B818769009A2F4B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDEF31301B818769009A2F4B /* LaunchScreen.xib */; };
 		FDEF313E1B818769009A2F4B /* XQGradientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDEF313D1B818769009A2F4B /* XQGradientTests.m */; };
 		FDEF314B1B818789009A2F4B /* XQColorBgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDEF31481B818789009A2F4B /* XQColorBgViewController.m */; };
+		FDEF315A1B81D19C009A2F4B /* _mov.gif in Resources */ = {isa = PBXBuildFile; fileRef = FDEF31591B81D19C009A2F4B /* _mov.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		FDEF313D1B818769009A2F4B /* XQGradientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XQGradientTests.m; sourceTree = "<group>"; };
 		FDEF31471B818789009A2F4B /* XQColorBgViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQColorBgViewController.h; sourceTree = "<group>"; };
 		FDEF31481B818789009A2F4B /* XQColorBgViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQColorBgViewController.m; sourceTree = "<group>"; };
+		FDEF31591B81D19C009A2F4B /* _mov.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = _mov.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				FDEF312B1B818769009A2F4B /* Main.storyboard */,
 				FDEF312E1B818769009A2F4B /* Images.xcassets */,
 				FDEF31301B818769009A2F4B /* LaunchScreen.xib */,
+				FDEF31591B81D19C009A2F4B /* _mov.gif */,
 				FDEF31211B818769009A2F4B /* Supporting Files */,
 			);
 			path = XQGradient;
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDEF312D1B818769009A2F4B /* Main.storyboard in Resources */,
+				FDEF315A1B81D19C009A2F4B /* _mov.gif in Resources */,
 				FDEF31321B818769009A2F4B /* LaunchScreen.xib in Resources */,
 				FDEF312F1B818769009A2F4B /* Images.xcassets in Resources */,
 			);
