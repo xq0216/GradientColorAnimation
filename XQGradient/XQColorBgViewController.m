@@ -7,7 +7,6 @@
 //
 
 #import "XQColorBgViewController.h"
-#import "NSTimer+BlockSupport.h"
 
 @interface XQColorBgViewController (){
     NSInteger currentIndex;
@@ -16,7 +15,6 @@
 }
 @property (strong, nonatomic) CAGradientLayer *gradientLayer0;
 @property (strong, nonatomic) CAGradientLayer *gradientLayer1;
-@property (strong, nonatomic) NSTimer *timer;
 @end
 
 @implementation XQColorBgViewController
