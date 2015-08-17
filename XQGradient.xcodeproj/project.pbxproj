@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		FDEF31241B818769009A2F4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDEF31231B818769009A2F4B /* main.m */; };
 		FDEF31271B818769009A2F4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDEF31261B818769009A2F4B /* AppDelegate.m */; };
-		FDEF312A1B818769009A2F4B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDEF31291B818769009A2F4B /* ViewController.m */; };
 		FDEF312D1B818769009A2F4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDEF312B1B818769009A2F4B /* Main.storyboard */; };
 		FDEF312F1B818769009A2F4B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDEF312E1B818769009A2F4B /* Images.xcassets */; };
 		FDEF31321B818769009A2F4B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDEF31301B818769009A2F4B /* LaunchScreen.xib */; };
 		FDEF313E1B818769009A2F4B /* XQGradientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDEF313D1B818769009A2F4B /* XQGradientTests.m */; };
+		FDEF314B1B818789009A2F4B /* XQColorBgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDEF31481B818789009A2F4B /* XQColorBgViewController.m */; };
+		FDEF314C1B818789009A2F4B /* NSTimer+BlockSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = FDEF314A1B818789009A2F4B /* NSTimer+BlockSupport.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +33,16 @@
 		FDEF31231B818769009A2F4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FDEF31251B818769009A2F4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FDEF31261B818769009A2F4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FDEF31281B818769009A2F4B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FDEF31291B818769009A2F4B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FDEF312C1B818769009A2F4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FDEF312E1B818769009A2F4B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FDEF31311B818769009A2F4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FDEF31371B818769009A2F4B /* XQGradientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XQGradientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDEF313C1B818769009A2F4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDEF313D1B818769009A2F4B /* XQGradientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XQGradientTests.m; sourceTree = "<group>"; };
+		FDEF31471B818789009A2F4B /* XQColorBgViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQColorBgViewController.h; sourceTree = "<group>"; };
+		FDEF31481B818789009A2F4B /* XQColorBgViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQColorBgViewController.m; sourceTree = "<group>"; };
+		FDEF31491B818789009A2F4B /* NSTimer+BlockSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+BlockSupport.h"; sourceTree = "<group>"; };
+		FDEF314A1B818789009A2F4B /* NSTimer+BlockSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+BlockSupport.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +86,10 @@
 			children = (
 				FDEF31251B818769009A2F4B /* AppDelegate.h */,
 				FDEF31261B818769009A2F4B /* AppDelegate.m */,
-				FDEF31281B818769009A2F4B /* ViewController.h */,
-				FDEF31291B818769009A2F4B /* ViewController.m */,
+				FDEF31471B818789009A2F4B /* XQColorBgViewController.h */,
+				FDEF31481B818789009A2F4B /* XQColorBgViewController.m */,
+				FDEF31491B818789009A2F4B /* NSTimer+BlockSupport.h */,
+				FDEF314A1B818789009A2F4B /* NSTimer+BlockSupport.m */,
 				FDEF312B1B818769009A2F4B /* Main.storyboard */,
 				FDEF312E1B818769009A2F4B /* Images.xcassets */,
 				FDEF31301B818769009A2F4B /* LaunchScreen.xib */,
@@ -219,8 +224,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDEF312A1B818769009A2F4B /* ViewController.m in Sources */,
+				FDEF314B1B818789009A2F4B /* XQColorBgViewController.m in Sources */,
 				FDEF31271B818769009A2F4B /* AppDelegate.m in Sources */,
+				FDEF314C1B818789009A2F4B /* NSTimer+BlockSupport.m in Sources */,
 				FDEF31241B818769009A2F4B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
